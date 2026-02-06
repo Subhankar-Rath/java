@@ -1,0 +1,19 @@
+package Array;
+
+public class SubArray {
+    public static void subArray(int number[]){
+        for(int i=0;i<number.length;i++){
+            for(int j=i;j<number.length;j++){
+                for(int k=1;k<=j;k++){
+                    System.out.print(number[k]+" ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+    public static void main(String[] args) {
+        int number[]={1,2,3,4,5};
+        subArray(number);
+    }
+}
