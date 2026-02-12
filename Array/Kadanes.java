@@ -2,7 +2,7 @@ package Array;
 
 import java.util.*;
 
-public class Kandans {
+public class Kadanes {
     public static void Kadanes(int numbers[]){
     int cs=0;
     int ms=Integer.MIN_VALUE;
