@@ -5,7 +5,7 @@ public class ShallowCopy {
         int marks[]={100,80,70};
         Student s1=new Student("subhankar",marks);
         Student s2=new Student(s1);
-        s1.marks[0]=99;
+        s2.marks[0]=99;
         System.out.println(s1.marks[0]);
         System.out.println(s2.marks[0]);
     }
