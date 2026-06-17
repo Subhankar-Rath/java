@@ -14,6 +14,7 @@ class Animal{
     }
 }
 class Deer extends Animal{
+    @Override
     void eat(){
         System.out.println("eating grass");
     }
