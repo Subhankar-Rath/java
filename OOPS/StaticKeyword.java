@@ -5,6 +5,9 @@ public class StaticKeyword {
         s2.schoolName="PHSE";
         s1.schoolName="ssvm";
         System.out.println(s2.schoolName);
+        Student s3=new Student();
+        System.out.println(s2.returnPercentage(20,30,40));
+
     }
 }
 class Student{
