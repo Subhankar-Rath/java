@@ -7,7 +7,7 @@ public class SumOfnNo {
         return sum1;
     }
     public static void main(String a[]){
-        int n=5;
+        int n=5000;
         System.out.println(sum(n));
     }
     
