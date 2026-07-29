@@ -9,7 +9,7 @@ public class Problem2 {
         System.out.println(n+" ");
     }
     public static void main(String a[]){
-        int n=10;
+        int n=5;
         printInc(n);
     }
 }
