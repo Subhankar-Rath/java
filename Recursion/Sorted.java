@@ -1,0 +1,16 @@
+public class Sorted{
+    public static boolean isSorted(int arr[],int i){
+        if(i==arr.length-1){
+            return true;
+        }
+        if(arr[i]>arr[i+1]){
+            return false;
+        }
+        return isSorted(arr,i+1);
+    }
+    public static void main(String a[]){
+        int arr[]={1,2,3,4,5};
+        boolean x=isSorted(arr, 0);
+        System.out.println(x);
+    }
+}
