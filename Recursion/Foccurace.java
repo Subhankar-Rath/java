@@ -11,6 +11,6 @@ public class Foccurace {
     
     public static void main(String []a){
         int arr[]={8,3,6,9,5,10,2,5,3};
-        System.out.println(firstOccurance(arr, 5, 0));
+        System.out.println( firstOccurance(arr, 5, 0));
     }
 }
