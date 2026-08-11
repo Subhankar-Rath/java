@@ -14,7 +14,7 @@ for (int i = 1; i < str.length(); i++) {
 
         if (count > 1) {
             sb.append(count);
-        }
+        
 
         count = 1;
     }
