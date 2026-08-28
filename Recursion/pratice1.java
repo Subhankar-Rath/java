@@ -4,7 +4,7 @@ public class pratice1 {
             return;
         }
         if(arr[n]==key){
-            System.out.println(n);
+            System.out.print(n+" ");
         }
         occurence(n+1,arr, key);
     }
